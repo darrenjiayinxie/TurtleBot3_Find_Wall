@@ -1,0 +1,6 @@
+<launch>
+    <!-- Start nodes for find_wall and follow_wall service -->
+    <node pkg="ros_basis_project" type="find_wall.py" name="find_wall" output="screen"/>
+    <node pkg="ros_basis_project" type="follow_wall.py" name="follow_wall" output="screen"/>
+    <node pkg="ros_basis_project" type="record_odom.py" name="record_odom" output="screen"/>
+</launch>
